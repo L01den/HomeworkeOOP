@@ -1,6 +1,7 @@
-package HomeworkeOOP.task2;
+package HomeworkeOOP.task3;
 
-public class Main {
+
+public class View {
     public static void main(String[] args) {
         People alena = new People("Алена", "Петрова",'f');
         People evgenii = new People("Евгений", "Петров",'m');
@@ -16,16 +17,17 @@ public class Main {
         gt.append(rita, alena);
         gt.append(rita, shasha);
 
-        rita.closeDoor();
+//        rita.closeDoor();
 //        gt.printRelatives();
-//        System.out.println(gt.getData("children"));
+//        System.out.println(gt.getData());
 //        System.out.println(new ResearchParent(gt).mother(alena));
 //        System.out.println(new ResearchParent(gt).spend(rita, Relationship.PARENT));
 //        System.out.println(new ResearchParent(gt).fatser(masha));
 
 
 
-
+        char c = '1' + '3';
+        System.out.println(c);
     }
 }
 

@@ -1,4 +1,4 @@
-package HomeworkeOOP.task2;
+package HomeworkeOOP.task3;
 
 public class Node {
 

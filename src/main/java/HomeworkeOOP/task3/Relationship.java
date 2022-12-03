@@ -1,4 +1,4 @@
-package HomeworkeOOP.task2;
+package HomeworkeOOP.task3;
 
 enum Relationship {
     PARENT,

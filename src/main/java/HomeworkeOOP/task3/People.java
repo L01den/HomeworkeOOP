@@ -1,6 +1,4 @@
-package HomeworkeOOP.task2;
-
-import java.util.ArrayList;
+package HomeworkeOOP.task3;
 
 public class People implements Door {
     private String surname;
