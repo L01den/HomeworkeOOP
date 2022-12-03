@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a4dabe1-c4ee-4dae-86fb-47d75110f3ba" name="Changes" comment="дз 2">
+    <list default="true" id="7a4dabe1-c4ee-4dae-86fb-47d75110f3ba" name="Changes" comment="дз 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkeOOP/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkeOOP/task2/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkeOOP/task2/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkeOOP/task2/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hl1aLMn8Q6B9xq6s971F9w2yuO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +52,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.HomeworkeOOP.rle.View">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkeOOP.chatMassege.App" />
+      <module name="sem19.11.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkeOOP.chatMassege.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeworkeOOP.rle.View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeworkeOOP.rle.View" />
       <module name="sem19.11.main" />
@@ -71,19 +84,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeworkeOOP.task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkeOOP.task1" />
-      <module name="sem19.11.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeworkeOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.HomeworkeOOP.rle.View" />
         <item itemvalue="Application.View" />
         <item itemvalue="Application.task1 (3)" />
         <item itemvalue="Application.task1 (2)" />
-        <item itemvalue="Application.task1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669491392876</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="дз 3">
+      <created>1670048373036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670048373036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,17 +174,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="дз 1" />
     <MESSAGE value="дз 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="дз 2" />
+    <MESSAGE value="дз 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/HomeworkeOOP/rle/View.java</url>
-          <line>42</line>
+          <line>45</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sem19_11$HomeworkeOOP_rle_View.ic" NAME="HomeworkeOOP.rle.View Coverage Results" MODIFIED="1670056521006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>HomeworkeOOP.rle.*</FILTER>
+    </SUITE>
   </component>
 </project>
