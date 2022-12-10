@@ -11,6 +11,7 @@ public class Main {
         User client1 = new User("Вася", fMsg);
         User client2 = new User("Андрей", fMsg);
         User client4 = new User("Марина", fMsg);
+        User client5 = new User("Маша", fMsg);
         fMsg.appendClient(client1);
         fMsg.appendClient(client2);
         fMsg.appendClient(client4);
